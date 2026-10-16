@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="64" height="64" rx="16" fill="#0B0F19" />
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="url(#purpleGrad)" stroke-width="2" stroke-opacity="0.8" />
+  <!-- Neural Sparkle -->
+  <circle cx="50" cy="14" r="3" fill="#A855F7" />
+  <!-- Monogram PY -->
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="900" fill="url(#purpleGrad)" text-anchor="middle" letter-spacing="-1">PY</text>
+</svg>

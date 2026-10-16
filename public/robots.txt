@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pankaj-yadav.com.np/sitemap.xml
